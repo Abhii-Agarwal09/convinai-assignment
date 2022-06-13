@@ -1,0 +1,30 @@
+.skeleton,
+.skeleton-small{
+  width: 90%;
+  height: 20px;
+  border-radius: 8px;
+  /* background-color: gray; */
+  animation: loading linear 1s infinite alternate;
+}
+
+.skeleton-small {
+  width: 75%;
+}
+
+.skeleton-image {
+  width: 175px;
+  height: 175px;
+  border-radius: 8px;
+  animation: loading linear 1s infinite alternate;
+}
+
+@keyframes loading {
+  0% {
+    background: gray;
+    opacity: 0.4;
+  }
+  100% {
+    background: gray;
+    opacity: 0.2;
+  }
+}
